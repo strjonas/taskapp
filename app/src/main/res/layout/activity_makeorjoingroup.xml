@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.taskapp.makeorjoingroup"
+    android:background="@drawable/task">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/segoeuib"
+        android:text="@string/joinorcreate"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="100dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/seguisb"
+        android:text="@string/your_are_not_in_a_group_yet_you_can_join_a_existing_group_or_create_a_new_one"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/joingroupbutton"
+
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttonhintergrund"
+        android:text="@string/join"
+        android:fontFamily="@font/segoeui"
+        app:layout_constraintEnd_toEndOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/creategroupbutton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/segoeui"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/buttonhintergrund"
+        android:text="@string/create"
+        app:layout_constraintEnd_toEndOf="@+id/joingroupbutton"
+        app:layout_constraintStart_toStartOf="@+id/joingroupbutton"
+        app:layout_constraintTop_toBottomOf="@+id/joingroupbutton" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/segoeui"
+        android:text="@string/whydoineedagroup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/creategroupbutton"
+        app:layout_constraintStart_toStartOf="@+id/creategroupbutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

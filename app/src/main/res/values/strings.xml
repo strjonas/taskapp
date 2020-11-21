@@ -1,0 +1,183 @@
+<resources>
+    <string name="app_name">FamilyTasks</string>
+    <string name="title_activity_menu_screen" translatable="false">MenuScreen</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="title_activity_settings" translatable="false">SettingsActivity</string>
+
+
+    <!-- Preference Titles -->
+    <string name="messages_header" translatable="false">Messages</string>
+    <string name="sync_header" translatable="false">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title" translatable="false">Sync email periodically</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="logout">Logout</string>
+    <string name="title_activity_parent_menu" translatable="false">MainActivity</string>
+    <string name="title_home" translatable="false">Home</string>
+    <string name="title_dashboard" translatable="false">Dashboard</string>
+    <string name="title_notifications" translatable="false">Notifications</string>
+    <string name="title_activity_parent_main_screen" translatable="false">ParentMainScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label" translatable="false">First Fragment</string>
+    <string name="second_fragment_label" translatable="false">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="logut">Logout</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="title_activity_kid_main_screen" translatable="false">KidMainScreen</string>
+    <string name="show_group">Show Group</string>
+    <string name="child">Child</string>
+    <string name="parent">Parent</string>
+    <string name="task">Task</string>
+    <string name="deadline">Deadline</string>
+    <string name="points">Points</string>
+    <string name="new_task">New Task</string>
+    <string name="my_profile">My Profile</string>
+    <string name="profile">Profile</string>
+    <string name="name">Name</string>
+    <string name="role">Role</string>
+    <string name="group">Group</string>
+    <string name="close">close</string>
+
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="profilefett">PROFILE</string>
+    <string name="till">till:</string>
+    <string name="discription">Discription</string>
+    <string name="punkte">Punkte</string>
+    <string name="accept_result_give_points">Accept</string>
+    <string name="reject_result_no_points">Reject</string>
+    <string name="accept_task">accept task</string>
+    <string name="member">Member</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login_here">Already have an account? Login here!</string>
+    <string name="back_to_tasks">Back To Tasks</string>
+    <string name="no_current_task">You have no current task!
+Return to the main Screen to
+accept one!</string>
+    <string name="add_task">Add Task</string>
+    <string name="add_image_optional">add image</string>
+    <string name="task_title">task title</string>
+    <string name="description">description</string>
+    <string name="create">create</string>
+    <string name="your_are_not_in_a_group_yet_you_can_join_a_existing_group_or_create_a_new_one">Your are not in a group yet! You can join an existing group or create a new one!</string>
+    <string name="login">Login</string>
+    <string name="not_registered_yet_register_here">Not registered yet? Register here!</string>
+    <string name="join_group">join group</string>
+
+    <string name="join">join</string>
+    <string name="update">update</string>
+    <string name="select_image">select image(horizontal)</string>
+    <string name="select_image2">select image</string>
+    <string name="hand_in_task">Hand in Task</string>
+    <string name="create_group">Create group</string>
+    <string name="groupname">groupname</string>
+    <string name="loginverb">login</string>
+
+    <string name="tasks">Tasks</string>
+    <string name="groupnameisrequired">Groupname is required.</string>
+    <string name="clickagaintoconfirm">Click again to confirm!</string>
+    <string name="tryagainlater">Try again later!</string>
+    <string name="successfullyaddedandjoined">Successfully added and joined Group!</string>
+    <string name="successfullyhandedintask">Successfully handed in task!</string>
+    <string name="groupdidntexist">Group doesn\'t exist!</string>
+    <string name="groupyouaretryingtojoinisfull">Group you are trying to join is full!</string>
+    <string name="successfullyjoined">Successfully joined: </string>
+    <string name="current_task">current task</string>
+    <string name="alreadydoneby">Already done by\u0020</string>
+    <string name="gemacht">.</string>
+    <string name="andacceptedbyaparent">\u0020and accepted by a parent.</string>
+    <string name="isalreadyworkingonthistask"> is already working on this task.</string>
+    <string name="notproperlydoneby">Task is finished but not properly from </string>
+    <string name="didnthandinyet">\u0020hasn\'t handed in the task yet. </string>
+    <string name="nobodyaccepted">Nobody has accepted this task yet!</string>
+    <string name="alreadyworkingonatask">You are already working on a task!</string>
+    <string name="successfullyacceptedtask">Successfully accepted task!</string>
+    <string name="allfieldsarerequired">All fields are required!</string>
+    <string name="succesfullyaddedtask">Succesfully added task!</string>
+    <string name="leavegroup">Leave group</string>
+    <string name="reallyleave">Do You really want to leave?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="thisisanexample">This is an example!</string>
+    <string name="title_activity_group_leaderboard">group_leaderboard</string>
+    <string name="yourenotaparent">You are not a parent!</string>
+    <string name="kickuser">Kick user</string>
+    <string name="resetpoints">reset Points</string>
+    <string name="noaccountyet">No account yet?</string>
+    <string name="registerbutton">Register!</string>
+    <string name="registerheadline">Register</string>
+    <string name="loginbutton">Login!</string>
+    <string name="joinorcreate">Join or Create?</string>
+    <string name="joinagroup">Join a group</string>
+    <string name="creategroup">Create a group</string>
+    <string name="whydoineedagroup">Why do I need a group?</string>
+    <string name="groupnamedoppel">Groupname:</string>
+    <string name="addimagehorizontal">Add image (horizontal)</string>
+    <string name="title">title</string>
+    <string name="groupnameexists">Groupname already exists!</string>
+    <string name="howdoesitwork">How does it work?</string>
+    <string name="whatyoushoulddo">What you should do!</string>
+    <string name="whatitshouldlooklike">What it should look like!</string>
+    <string name="whatshouldbeendone">What should be done:</string>
+    <string name="whatwasdone">What was done:</string>
+    <string name="deadlineover">Deadline is over!</string>
+    <string name="success">Success!</string>
+    <string name="delete">Delete</string>
+    <string name="childpoints">Points: %1$s </string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="emailisrequired">Email is required!</string>
+    <string name="emailsend">Email sent.</string>
+    <string name="passwordisrequired">Password is required!</string>
+    <string name="passwordistoshort">Password is to short!</string>
+    <string name="nameisrequired">Name is required!</string>
+    <string name="usernamecantbelonger">Username can\' be longer than 10 caracters!</string>
+    <string name="chooseoption">Choose option \"parent\" or \"child\"!</string>
+    <string name="doyouwanttodelete">Do you want to delete or edit his task?</string>
+    <string name="edit">Edit</string>
+    <string name="howdoesitworkdes">The task you create, is shared in
+your group and can be worked
+on by child members. If they are
+finished, they can hand in the
+task. If you approve their work,
+you can give them the amount
+of points, set in the task. If not,
+they wont receive any points.
+You can give your kids goals to
+achieve, i.e. how many points in
+a month, to get them to work.
+</string>
+    <string name="whydoineedagroupdes">In a group, parents can share
+tasks in the group, and the kids
+in the group can accept them.
+If they did the tasks good, they
+get the amount of points you
+picked for this task. So basically
+groups are used to bring members
+in an environment to share tasks
+among each other!
+</string>
+
+
+</resources>

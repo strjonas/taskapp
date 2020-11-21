@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplication.MainActivity"
+    >
+
+    <item
+        android:title="@string/update"
+        app:showAsAction="ifRoom"
+        android:id="@+id/updatetasks"
+
+        />
+    <item
+        android:id="@+id/viewmyprofileparent"
+        android:orderInCategory="100"
+        android:title="@string/my_profile"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/edidgroupparentmain"
+        android:orderInCategory="100"
+        android:title="@string/show_group"
+        android:icon="@drawable/baseline_groups_white_48dp"
+        android:iconTint="@color/colorAccent"
+        android:iconTintMode="add"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logoutparentmain"
+        android:orderInCategory="100"
+        android:title="@string/logut"
+        app:showAsAction="never" />
+
+</menu>

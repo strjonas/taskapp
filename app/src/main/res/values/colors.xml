@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4A148C</color>
+    <color name="colorPrimaryDark">#7209B7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    
+    <color name="hellpink">#F72585</color>
+    <color name="hellgrau">#A6B3C4</color>
+    <color name="blue">#4864ED</color>
+    <color name="hellpuple">#7209B7</color>
+</resources>
